@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo5C2023C.MainPage">
+
+    <StackLayout>
+        <Button Text="Prueba"
+                BackgroundColor="Red"
+                TextColor="White"
+                ></Button>
+        <Label Text="Mi primer label"
+               FontSize="Large"
+               BackgroundColor="Blue"
+               TextColor="White"
+               ></Label>
+        <Entry Placeholder="Ingresa Entry"/>
+        <Entry Placeholder="Ingresa Editor"
+               HeightRequest="100
+               "/>
+        <DatePicker x:Name="dtPrueba"
+                    ></DatePicker>
+    </StackLayout>
+
+</ContentPage>
